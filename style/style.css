@@ -1,5 +1,14 @@
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: #282828;
+}
+
 body {
     background-color: #282828;
+    overflow-x: hidden;
 }
 
 h1 {
@@ -13,9 +22,13 @@ h1 {
 footer {
     color: white;
     position: absolute;
-    bottom: 0;
+    bottom: -1%;
+    left: 18%;
     width: 100%;
-    background-color: black;
+}
+
+.aboutPrivacy {
+    color: white;
 }
 
 .mailto {
