@@ -1,5 +1,6 @@
 body {
     background-color: #282828;
+    overflow: hidden;
 }
 
 h1 {
@@ -11,8 +12,17 @@ h1 {
 }
 
 footer {
+    color: white;
     position: absolute;
     bottom: 0;
     width: 100%;
-    background-color: blue;
+    background-color: black;
+}
+
+.mailto {
+    color: green;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 50px;
 }
