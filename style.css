@@ -1,0 +1,74 @@
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: #282828;
+}
+
+body {
+    background-color: #282828;
+    overflow-x: hidden;
+}
+
+
+/*h1 {
+    position: relative;
+    left: 30%;
+    text-underline-offset: initial;
+    font-size: 100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    color: white;
+}*/
+
+footer {
+    position: fixed;
+    left: 10%;
+    bottom: 2%;
+}
+
+.aboutPrivacyMail {
+    text-decoration: none;
+    font-size: 60%;
+    font-family: sans-serif;
+    color: white;
+}
+
+li {
+    float: left;
+    position: relative;
+    left: 38%;
+}
+
+.navBar {
+    font-family: sans-serif;
+    text-decoration: none;
+    color: white;
+    display: block;
+    height: auto;
+    width: auto;
+    padding: 8px;
+    background-color: grey;
+}
+
+.osman {
+    background-color: red;
+}
+
+.navBar:hover {
+    background-color: green;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+article {
+    position: fixed;
+    left: 9%;
+    bottom: 80%;
+    color: white;
+}
