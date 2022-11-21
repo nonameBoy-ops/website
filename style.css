@@ -36,9 +36,10 @@ footer {
 }
 
 li {
+    text-decoration: none;
     float: left;
     position: relative;
-    left: 28%;
+    left: 40%;
 }
 
 .navBar {
@@ -66,9 +67,10 @@ ul {
     padding: 0;
 }
 
-article {
+p {
+    font-family: sans-serif;
     position: fixed;
     left: 9%;
-    bottom: 80%;
+    bottom: 70%;
     color: white;
 }
