@@ -78,10 +78,19 @@ ul {
     padding: 0;
 }
 
+.p {
+    font-size: 110%;
+    font-family: sans-serif;
+    position: fixed;
+    left: 9%;
+    bottom: 80%;
+    color: white;
+}
+
 p {
     font-family: sans-serif;
     position: fixed;
     left: 9%;
-    bottom: 70%;
+    bottom: 50%;
     color: white;
 }
