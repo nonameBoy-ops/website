@@ -11,6 +11,10 @@ body {
     overflow-x: hidden;
 }
 
+.audio {
+    display: none;
+}
+
 
 /*h1 {
     position: relative;
@@ -21,6 +25,14 @@ body {
     text-align: center;
     color: white;
 }*/
+
+.rainbow_Cat {
+    width: 250px;
+    height: 180px;
+    position: fixed;
+    left: 10%;
+    bottom: 85%;
+}
 
 footer {
     position: fixed;
@@ -38,7 +50,7 @@ footer {
 li {
     float: left;
     position: relative;
-    left: 38%;
+    left: 40%;
 }
 
 .navBar {
@@ -66,9 +78,10 @@ ul {
     padding: 0;
 }
 
-article {
+p {
+    font-family: sans-serif;
     position: fixed;
     left: 9%;
-    bottom: 80%;
+    bottom: 70%;
     color: white;
 }
