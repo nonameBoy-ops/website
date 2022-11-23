@@ -27,11 +27,11 @@ body {
 }*/
 
 .rainbow_Cat {
-    width: 250px;
-    height: 180px;
+    width: 170px;
+    height: 90px;
     position: fixed;
-    left: 10%;
-    bottom: 85%;
+    left: 4%;
+    bottom: 93%;
 }
 
 footer {
