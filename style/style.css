@@ -25,7 +25,9 @@ footer {
     height: auto;
     width: auto;
     padding: 8px;
+    margin: 5px;
     background-color: grey;
+    border-radius: 10px;
 }
 
 .navBar:hover {
