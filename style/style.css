@@ -11,46 +11,10 @@ body {
     overflow-x: hidden;
 }
 
-.audio {
-    display: none;
-}
-
-
-/*h1 {
-    position: relative;
-    left: 30%;
-    text-underline-offset: initial;
-    font-size: 100%;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    text-align: center;
-    color: white;
-}*/
-
-.rainbow_Cat {
-    width: 140px;
-    height: 70px;
-    position: fixed;
-    left: 4%;
-    bottom: 92%;
-}
-
 footer {
     position: fixed;
     left: 10%;
     bottom: 2%;
-}
-
-.aboutPrivacyMail {
-    text-decoration: none;
-    font-size: 60%;
-    font-family: sans-serif;
-    color: white;
-}
-
-li {
-    float: left;
-    position: relative;
-    left: 40%;
 }
 
 .navBar {
@@ -64,12 +28,14 @@ li {
     background-color: grey;
 }
 
-.osman {
-    background-color: red;
-}
-
 .navBar:hover {
     background-color: green;
+}
+
+li {
+    float: left;
+    position: relative;
+    left: 40%;
 }
 
 ul {
@@ -78,7 +44,7 @@ ul {
     padding: 0;
 }
 
-.p {
+.heading {
     font-size: 110%;
     font-family: sans-serif;
     position: fixed;
@@ -87,10 +53,28 @@ ul {
     color: white;
 }
 
-p {
+.text {
     font-family: sans-serif;
     position: fixed;
     left: 9%;
     bottom: 50%;
     color: white;
 }
+
+.rainbow_Cat {
+    width: 140px;
+    height: 70px;
+    position: fixed;
+    left: 4%;
+    bottom: 92%;
+}
+
+.mail {
+    text-decoration: none;
+    font-size: 60%;
+    font-family: sans-serif;
+    color: white;
+}
+
+
+/*CSS für Startseite*/
