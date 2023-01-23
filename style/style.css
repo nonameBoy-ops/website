@@ -16,11 +16,6 @@ body {
     overflow-x: hidden;
 }
 
-footer {
-    position: fixed;
-    left: 10%;
-    bottom: 2%;
-}
 
 .navBar {
     font-family: sans-serif;
@@ -63,26 +58,6 @@ ul {
 
 
 
-.mail {
-    text-decoration: none;
-    font-size: 60%;
-    font-family: sans-serif;
-    color: white;
-}
-
-footer{
-    display: inline;
-}
-
-@media only screen and (max-width: 1000px){
-
-
-    .navBar:hover {
-        background-color: red;
-    }
-    
-
-}
 
 
 /*CSS für Startseite*/
