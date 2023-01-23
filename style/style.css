@@ -30,10 +30,6 @@ footer {
     height: auto;
     width: auto;
     padding: 8px;
-
-    margin-left: auto;
-    margin-right: auto;
-
     margin: 5px;
     background-color: grey;
     border-radius: 10px;
@@ -43,15 +39,28 @@ footer {
     background-color: green;
 }
 
+.navi{
+    float: left;
+    position: relative;
+    left: 50%;
+}
+
+.navigation{
+    float: left;
+    position: relative;
+    left: -50%;
+}
+
 li {
     float: left;
-    position: center;
+    position: relative;
+ 
 }
 
 ul {
     list-style-type: none;
-    margin: auto;
-    width: 70%;
+    margin: 0;
+    padding: 0;
 }
 
 .heading {
