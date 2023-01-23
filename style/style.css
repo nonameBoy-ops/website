@@ -30,7 +30,7 @@ footer {
     height: auto;
     width: auto;
     padding: 8px;
-    margin: 5px;
+    margin: 6px;
     background-color: #1d1d1d;
     border-radius: 10px;
 }
@@ -61,30 +61,7 @@ ul {
     list-style-type: none;
 }
 
-.heading {
-    font-size: 110%;
-    font-family: sans-serif;
-    position: fixed;
-    left: 9%;
-    bottom: 80%;
-    color: white;
-}
 
-.text {
-    font-family: sans-serif;
-    position: fixed;
-    left: 9%;
-    bottom: 60%;
-    color: white;
-}
-
-.rainbow_Cat {
-    width: 140px;
-    height: 70px;
-    position: fixed;
-    left: 4%;
-    bottom: 92%;
-}
 
 .mail {
     text-decoration: none;
@@ -94,30 +71,17 @@ ul {
 }
 
 footer{
-    display: none;
+    display: inline;
 }
 
 @media only screen and (max-width: 1000px){
-    footer{
-        display: inline;
-    }
+
 
     .navBar:hover {
         background-color: red;
     }
     
-    .navBar {
-    font-family: sans-serif;
-    text-decoration: none;
-    color: red;
-    display: block;
-    height: auto;
-    width: auto;
-    padding: 8px;
-    margin: 5px;
-    background-color: white;
-    border-radius: 10px;
-}
+
 }
 
 
