@@ -10,6 +10,14 @@
     display: none; 
 }
 
+body {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    bottom: 0px; left:0px;
+    background-color: white;
+}
+
 .dark-mode{
     height: 100%;
     width: 100%;
@@ -31,23 +39,11 @@
     margin: 6px;
     background-color: rgb(92, 82, 82);
     border-radius: 10px;
-
     position:fixed;
     top: 2%;
     right: 0;
 }
 
-body {
-    height: 100%;
-    width: 100%;
-    position: relative;
-    bottom: 0px; left:0px;
-    background-color: white;
-}
-
-.pdf{
-    overflow: hidden;
-}
 .navBar {
     font-family: sans-serif;
     text-align: center;
@@ -90,8 +86,29 @@ ul {
     list-style-type: none;
 }
 
+.pdf{
+    overflow: hidden;
+}
+
+.mail {
+    text-decoration: none;
+    font-size: 60%;
+    font-family: sans-serif;
+    col: white;
+}
+
+footer {
+    position: fixed;
+    left: 10%;
+    bottom: 2%;
+}
+
+@media only screen and (max-width: 400px){
 
 
+    .navBar:hover {
+        background-color: red;
+    }
+    
 
-
-/*CSS für Startseite*/
+}
