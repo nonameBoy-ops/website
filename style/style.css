@@ -50,11 +50,12 @@ body {
 }
 .navBar {
     font-family: sans-serif;
+    text-align: center;
     text-decoration: none;
     color: #bf8aff;
     display: block;
     height: auto;
-    width: auto;
+    width: 60px;
     padding: 8px;
     margin: 6px;
     background-color: rgb(92, 82, 82);
