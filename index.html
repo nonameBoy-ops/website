@@ -24,6 +24,17 @@
    <p class="info">Du bist ein <br>Mobiles Endgerät</p>
 
    <script>
+    function kekse(){
+    document.cookie = "lightMode=1; path=/";
+    }
+    function anzeigen(){
+    var x = document.cookie;
+    window.alert(x);
+    }
+   </script>
+    
+   <script>
+   
     function lightMode() {
         var element = document.body;
         element.classList.toggle("light-mode");
