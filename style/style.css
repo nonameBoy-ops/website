@@ -40,14 +40,15 @@ body {
     background-color: rgb(92, 82, 82);
     border-radius: 10px;
     position:fixed;
-    top: 2%;
+    bottom: 0%;
     right: 0;
+    border: none;
 }
-
 .navBar {
     font-family: sans-serif;
     text-align: center;
     text-decoration: none;
+    
     color: #bf8aff;
     display: block;
     height: auto;
