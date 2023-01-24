@@ -11,12 +11,18 @@
 }
 
 body {
-    
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 5px;
+    box-sizing: border-box;
     background-color: #121212;
     overflow-x: hidden;
 }
 
-
+.pdf{
+    overflow: hidden;
+}
 .navBar {
     font-family: sans-serif;
     text-decoration: none;
@@ -31,7 +37,7 @@ body {
 }
 
 .navBar:hover {
-    background-color: rgb(74, 143, 74);
+    background-color: rgb(116, 102, 102);
 }
 
 .navi{
