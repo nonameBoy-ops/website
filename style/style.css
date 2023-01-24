@@ -39,6 +39,7 @@
 
 body {
     height: 100%;
+    width: 100%;
     position: relative;
     bottom: 0px; left:0px;
     background-color: white;
@@ -71,13 +72,15 @@ body {
 }
 
 .navigation{
+    height: 100%;
+    width: 100%;
     float: left;
     position: relative;
     left: -50%;
 }
 
 li {
-    float: left;
+    float:left;
     position: relative;
  
 }
