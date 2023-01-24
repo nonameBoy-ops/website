@@ -3,11 +3,11 @@
 }
 
 ::-webkit-scrollbar {
-    width: 10px;
+    display: none;
 }
 
-::-webkit-scrollbar-track {
-    background: #282828;
+::-webkit-scrollbar-track { 
+    display: none; 
 }
 
 body {
@@ -26,12 +26,12 @@ body {
     width: auto;
     padding: 8px;
     margin: 6px;
-    background-color: #1d1d1d;
+    background-color: rgb(92, 82, 82);
     border-radius: 10px;
 }
 
 .navBar:hover {
-    background-color: green;
+    background-color: rgb(74, 143, 74);
 }
 
 .navi{
