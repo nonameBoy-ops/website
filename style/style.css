@@ -108,8 +108,18 @@ footer {
     bottom: 2%;
 }
 
+.info{
+
+
+    color: #121212
+}
+
 @media only screen and (max-width: 500px){
-      body{
-        background-color: red;
-      }
+    .info{
+        font-family: sans-serif;
+        position: fixed;
+        left: 30%;
+        bottom: 50%;
+        color: white;
+    }
 }
