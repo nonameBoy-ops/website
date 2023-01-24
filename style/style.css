@@ -103,7 +103,7 @@ footer {
     bottom: 2%;
 }
 
-@media only screen and (max-width: 50px){
+@media only screen and (max-width: 450px){
       body{
         background-color: red;
       }
