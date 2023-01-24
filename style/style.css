@@ -31,7 +31,7 @@ body {
 .dark-mode-button{
     font-family: sans-serif;
     text-decoration: none;
-    color: red;
+    color: #bf8aff;
     display: block;
     height: auto;
     width: auto;
@@ -94,7 +94,7 @@ ul {
     text-decoration: none;
     font-size: 60%;
     font-family: sans-serif;
-    col: white;
+    color: white;
 }
 
 footer {
@@ -103,7 +103,7 @@ footer {
     bottom: 2%;
 }
 
-@media only screen and (max-width: 400px){
+@media only screen and (max-width: 300px){
 
 
     .navBar:hover {
