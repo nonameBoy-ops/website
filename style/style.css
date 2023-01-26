@@ -102,6 +102,13 @@ ul {
     color: white;
 }
 
+.mail-themed {
+    text-decoration: none;
+    font-size: 60%;
+    font-family: sans-serif;
+    color: black;
+}
+
 footer {
     position: fixed;
     left: 10%;
@@ -122,5 +129,13 @@ footer {
         left: 30%;
         bottom: 50%;
         color: white;
+    }
+
+    .info-themed{
+        font-family: sans-serif;
+        position: fixed;
+        left: 30%;
+        bottom: 50%;
+        color: black;
     }
 }

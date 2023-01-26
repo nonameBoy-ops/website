@@ -2,9 +2,12 @@
 <html lang="en">
 
 <head>
+    <link id="style_lite" rel="stylesheet" type="text/css" href="style/style_lite.css" />
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <script type="text/javascript" src="script/script.js"></script>
     <link rel="stylesheet" type="text/css" href="style/style.css">
     <link rel="icon" href="documents/pictures/fs_logo.png">
     <title>Fabian</title>
@@ -21,23 +24,39 @@
    </div>
    </div>
 
-   <p class="info">Du bist ein <br>Mobiles Endgerät</p>
+   <p id="info" class="info">Du bist ein <br>Mobiles Endgerät</p>
+
+   <input class="light-mode-button" type="button" value="Light Mode" onclick="return change(this)" />
 
 
     
-   <script>
-   
-    function lightMode() {
+   <script type="text/javascript">
+       function change( el )
+       {
+           if ( el.value === "Light Mode" )
+               el.value = "Dark Mode";
+           else
+               el.value = "Light Mode";
+           
+           theme();
+       }
+       
+       function theme(){
+        //var all = document.getElementById("*");
         var element = document.body;
+        var mail = document.getElementById("mail");
+        var info = document.getElementById("info");
+        //all.classList.toggle("*");
         element.classList.toggle("light-mode");
-    }
-   </script>
-    <button class="light-mode-button" onclick="lightMode()">Light-Mode</button>
+        mail.classList.toggle("mail-themed");
+        info.classList.toggle("info-themed");
+       }
+       </script>
 
 </body>
 
 <footer>
-    <a class="mail" href="mailto:heutekein@muskelshirt.de">© 2022-2023 Fabian</a>
+    <a id="mail" class="mail" href="mailto:heutekein@muskelshirt.de">© 2022-2023 Fabian</a>
 </footer>
 
 </html>
