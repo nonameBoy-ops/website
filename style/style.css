@@ -2,6 +2,30 @@
     width: device-width;
 }
 
+@media only screen and (min-width: 500px){     /*große Seiten*/
+    .info{
+    display: none;
+    }
+}
+
+@media only screen and (max-width: 500px){     /*mobile Geräte*/
+    .info{
+        font-family: sans-serif;
+        position: fixed;
+        left: 30%;
+        bottom: 50%;
+        color: white;
+    }
+
+    .info-themed{
+        font-family: sans-serif;
+        position: fixed;
+        left: 30%;
+        bottom: 50%;
+        color: black;
+    }
+}
+
 ::-webkit-scrollbar {
     display: none;
 }
@@ -11,16 +35,39 @@
 }
 
 html, body {
-    max-width: 100%;
-    overflow-x: hidden;
-}
-
-body {
     height: 100%;
     width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
     position: relative;
     bottom: 0px; left:0px;
     background-color: #121212;
+}
+
+.light-mode{
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    padding: 5px;
+    height: 100%;
+    overflow-x: hidden;
+    box-sizing: border-box;
+    background-color: white;
+}
+
+.light-mode-button{
+    right: 0;
+    bottom: 0%;
+    height: 50px;
+    width: 100px;
+    border: none;
+    display: block;
+    position:fixed;
+    color: #bf8aff;
+    border-radius: 10px;
+    text-decoration: none;
+    font-family: sans-serif;
+    background: transparent;  
 }
 
 input{
@@ -67,31 +114,9 @@ output{
     
 }
 
-.light-mode{
-    height: 100%;
-    width: 100%;
-    margin: 0;
-    padding: 5px;
-    box-sizing: border-box;
-    background-color: white;
-    overflow-x: hidden;
-}
 
-.light-mode-button{
-    font-family: sans-serif;
-    text-decoration: none;
-    color: #bf8aff;
-    display: block;
-    height: 50px;
-    width: 100px;
-    
-    background: transparent;
-    border-radius: 10px;
-    position:fixed;
-    bottom: 0%;
-    right: 0;
-    border: none;
-}
+
+
 .navBar {
     font-family: sans-serif;
     text-align: center;
@@ -134,51 +159,26 @@ ul {
     list-style-type: none;
 }
 
-.pdf{
-    overflow: hidden;
-}
+
+
+
 
 .mail {
-    text-decoration: none;
     font-size: 60%;
-    font-family: sans-serif;
     color: white;
+    text-decoration: none;
+    font-family: sans-serif;
 }
 
 .mail-themed {
-    text-decoration: none;
     font-size: 60%;
-    font-family: sans-serif;
     color: black;
+    text-decoration: none;
+    font-family: sans-serif;
 }
 
 footer {
-    position: fixed;
     left: 10%;
     bottom: 2%;
-}
-
-
-@media only screen and (min-width: 500px){
-    .info{
-    display: none;
-    }
-}
-
-@media only screen and (max-width: 500px){
-    .info{
-        font-family: sans-serif;
-        position: fixed;
-        left: 30%;
-        bottom: 50%;
-        color: white;
-    }
-
-    .info-themed{
-        font-family: sans-serif;
-        position: fixed;
-        left: 30%;
-        bottom: 50%;
-        color: black;
-    }
+    position: fixed;
 }
