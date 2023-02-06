@@ -82,11 +82,10 @@ output{
     text-decoration: none;
     color: #bf8aff;
     display: block;
-    height: auto;
-    width: auto;
-    padding: 8px;
-    margin: 6px;
-    background-color: rgb(92, 82, 82);
+    height: 50px;
+    width: 100px;
+    
+    background: transparent;
     border-radius: 10px;
     position:fixed;
     bottom: 0%;
