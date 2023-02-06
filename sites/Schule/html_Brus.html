@@ -15,9 +15,21 @@
     <div class="navi">
         <div class="navigation">
     <ul>
+
+
+
+          
     <form id="form" onsubmit="return false;">
 
         <input id="first" type="text" name="first">
+
+        <select id="dropdown" class="dropdown">
+           <option value="val1" id="addieren">+</option>
+           <option value="val2" id="subtrahieren">-</option>
+           <option value="val3" id="multiplizieren">*</option>
+           <option value="val4" id="dividieren">/</option>
+        </select>
+
         <input id="second" type="text" name="second" >
 
         <button onclick="rechnen()">=</button>
@@ -35,14 +47,35 @@
 
         function rechnen() {
 
-            var eing1 = document.getElementById('first').value;
-            var eing2 = document.getElementById('second').value;
+            let eing1 = document.getElementById('first').value;
+            let eing2 = document.getElementById('second').value;
 
-            var ergebnis = eing1 + eing2;
+            let ergebnis;
 
             
+
+            if(document.getElementById('dropdown').value == "val1"){
+                ergebnis = +eing1 + +eing2;
+
+            }
+            
+            if(document.getElementById('dropdown').value == "val2"){
+                ergebnis = eing1 - eing2;
+
+            }
+            if(document.getElementById('dropdown').value == "val3"){
+                ergebnis = eing1 * eing2;
+
+            }
+            if(document.getElementById('dropdown').value == "val4"){
+                ergebnis = eing1 / eing2;
+
+            } 
+            
             document.getElementById('output').innerHTML = ergebnis;
+           
         }
+
      </script>
 
     </ul>
