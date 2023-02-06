@@ -23,6 +23,42 @@ body {
     background-color: #121212;
 }
 
+input{
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 8%;
+    width: 30%;
+    font-family: inherit;
+    position: center;
+    text-align: center;
+    border: 0;
+    outline: 0;
+    font-size: 1.3rem;
+    color: white;
+    padding: 7px 0;
+    background: grey;
+    transition: border-color 0.2s;
+    border-radius: 10px;
+}
+
+output{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 8%;
+    width: 30%;
+    font-family: inherit;
+    position: center;
+    text-align: center;
+    border: 0;
+    outline: 0;
+    font-size: 1.3rem;
+    color: white;
+    padding: 7px 0;
+    background: grey;
+    transition: border-color 0.2s;
+    border-radius: 10px;
+}
+
 .light-mode{
     height: 100%;
     width: 100%;
