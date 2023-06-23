@@ -48,7 +48,7 @@ output {
     margin-left: 5px;
     margin-right: 5px;
     margin-top: 8%;
-    width: 30%;
+    width: 90%;
     font-family: inherit;
     position: center;
     text-align: center;
@@ -85,14 +85,14 @@ output {
 
 .navbar li {
     display: inline-block;
-    margin-right: 20px;
+    margin-right: 10px;
 }
 
 .navbar a {
     color: white;
     font-family: sans-serif;
     text-decoration: none;
-    padding: 15px;
+    padding: 10px;
 }
 
 .navbar a:hover {
@@ -111,8 +111,9 @@ output {
 }
 
 footer {
-    left: 48%;
-    bottom: 2%;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 1%;
     position: fixed;
 }
 
@@ -121,9 +122,8 @@ footer {
     width: 50px;
     height: 50px;
     border: 0px;
-    position: absolute;
-    left: 94%;
-    top: 1%;
+    position: fixed;
+    bottom: 0;
 }
 
 body.dark-mode {
@@ -136,9 +136,8 @@ body.dark-mode .Design {
     width: 50px;
     height: 50px;
     border: 0px;
-    position: absolute;
-    left: 94%;
-    top: 1%;
+    position: fixed;
+    bottom: 0;
 }
 
 .navbar.dark-mode {
