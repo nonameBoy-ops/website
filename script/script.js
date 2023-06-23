@@ -1,20 +1,22 @@
-function lightMode( el )
-{
-    if ( el.value === "Light Mode" )
-        el.value = "Dark Mode";
-    else
-        el.value = "Light Mode";
-    
-    theme();
-}
+// JavaScript für Dark/White Mode
+const toggleButton = document.createElement('button');
+toggleButton.textContent = 'White Mode';
+toggleButton.style.position = 'fixed';
+toggleButton.style.top = '10px';
+toggleButton.style.right = '10px';
+toggleButton.addEventListener('click', toggleDarkMode);
 
-function theme(){
- //var all = document.getElementById("*");
- var element = document.body;
- var mail = document.getElementById("mail");
- var info = document.getElementById("info");
- //all.classList.toggle("*");
- element.classList.toggle("light-mode");
- mail.classList.toggle("mail-themed");
- info.classList.toggle("info-themed");
+document.getElementById("DarkWhite").onclick = toggleDarkMode;
+
+function toggleDarkMode() {
+    toggleButton.textContent === 'White Mode'
+    document.body.classList.toggle('dark-mode');
+    document.querySelector('.navbar').classList.toggle('dark-mode');
+    document.querySelector('.content').classList.toggle('dark-mode');
+
+    if (toggleButton.textContent === 'White Mode') {
+        toggleButton.textContent = 'Dark Mode';
+    } else {
+        toggleButton.textContent = 'White Mode';
+    }
 }

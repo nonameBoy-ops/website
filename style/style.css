@@ -2,75 +2,49 @@
     width: device-width;
 }
 
-@media only screen and (min-width: 500px){     /*große Seiten*/
-    .info{
-    display: none;
+@media only screen and (min-width: 500px) {
+    /* DESKTOP */
+    .info {
+        display: none;
     }
 }
 
-@media only screen and (max-width: 500px){     /*mobile Geräte*/
-    .info{
+@media only screen and (max-width: 500px) {
+    /* MOBILE */
+    .info,
+    .info-themed {
         font-family: sans-serif;
         position: fixed;
         left: 30%;
         bottom: 50%;
         color: white;
     }
-
-    .info-themed{
-        font-family: sans-serif;
-        position: fixed;
-        left: 30%;
-        bottom: 50%;
+    .info-themed {
         color: black;
     }
 }
 
-::-webkit-scrollbar {
+::-webkit-scrollbar,
+::-webkit-scrollbar-track {
     display: none;
 }
 
-::-webkit-scrollbar-track { 
-    display: none; 
-}
-
-html, body {
+html,
+body {
+    margin: 0;
+    padding: 0;
     height: 100%;
     width: 100%;
     max-width: 100%;
     overflow-x: hidden;
     position: relative;
-    bottom: 0px; left:0px;
+    bottom: 0px;
+    left: 0px;
     background-color: #121212;
 }
 
-.light-mode{
-    margin: 0;
-    width: 100%;
-    height: 100%;
-    padding: 5px;
-    height: 100%;
-    overflow-x: hidden;
-    box-sizing: border-box;
-    background-color: white;
-}
-
-.light-mode-button{
-    right: 0;
-    bottom: 0%;
-    height: 50px;
-    width: 100px;
-    border: none;
-    display: block;
-    position:fixed;
-    color: #bf8aff;
-    border-radius: 10px;
-    text-decoration: none;
-    font-family: sans-serif;
-    background: transparent;  
-}
-
-input{
+input,
+output {
     margin-left: 5px;
     margin-right: 5px;
     margin-top: 8%;
@@ -88,97 +62,93 @@ input{
     border-radius: 10px;
 }
 
-output{
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 8%;
-    width: 30%;
-    font-family: inherit;
-    position: center;
-    text-align: center;
-    border: 0;
-    outline: 0;
-    font-size: 1.3rem;
-    color: white;
-    padding: 7px 0;
-    background: grey;
-    transition: border-color 0.2s;
-    border-radius: 10px;
-}
-
-.dropdown{
-    font-size: 1,5em;
+.dropdown {
+    font-size: 1.5em;
     border-radius: 10px;
     color: white;
     background: grey;
-    
 }
 
-
-
-
-.navBar {
-    font-family: sans-serif;
-    text-align: center;
-    text-decoration: none;
-    
-    color: #bf8aff;
-    display: block;
-    height: auto;
-    width: auto;
-    padding: 8px;
-    margin: 6px;
-    background-color: rgb(92, 82, 82);
-    border-radius: 10px;
+.navbar {
+    background-color: #121212;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.navBar:hover {
-    background-color: rgb(116, 102, 102);
-}
-
-.navi{
-    float: left;
-    position: relative;
-    left: 50%;
-}
-
-.navigation{
-
-    float: left;
-    position: relative;
-    left: -50%;
-}
-
-li {
-    float:left;
-    position: relative;
- 
-}
-
-ul {
+.navbar ul {
+    margin: 0;
+    padding: 0;
     list-style-type: none;
 }
 
+.navbar li {
+    display: inline-block;
+    margin-right: 20px;
+}
 
+.navbar a {
+    color: white;
+    font-family: sans-serif;
+    text-decoration: none;
+    padding: 15px;
+}
 
-
+.navbar a:hover {
+    color: #f50a0a;
+}
 
 .mail {
     font-size: 60%;
-    color: white;
+    color: red;
     text-decoration: none;
     font-family: sans-serif;
 }
 
-.mail-themed {
-    font-size: 60%;
-    color: black;
-    text-decoration: none;
-    font-family: sans-serif;
+.mail.dark-mode {
+    color: #000000;
 }
 
 footer {
-    left: 10%;
+    left: 48%;
     bottom: 2%;
     position: fixed;
+}
+
+.Design {
+    background: URL('../documents/pictures/sonne.png');
+    width: 50px;
+    height: 50px;
+    border: 0px;
+    position: absolute;
+    left: 94%;
+    top: 1%;
+}
+
+body.dark-mode {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+body.dark-mode .Design {
+    background: URL('../documents/pictures/mond.png');
+    width: 50px;
+    height: 50px;
+    border: 0px;
+    position: absolute;
+    left: 94%;
+    top: 1%;
+}
+
+.navbar.dark-mode {
+    background-color: #ffffff;
+}
+
+.navbar.dark-mode a {
+    color: #000000;
+}
+
+.content.dark-mode {
+    color: #000000;
 }
