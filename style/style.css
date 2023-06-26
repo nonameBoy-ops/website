@@ -70,7 +70,11 @@ output {
 }
 
 .navbar {
-    background-color: #121212;
+    z-index: 1;
+    position: fixed;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: transparent;
     height: 25px;
     display: flex;
     justify-content: center;
@@ -141,11 +145,11 @@ body.dark-mode .Design {
 }
 
 .navbar.dark-mode {
-    background-color: #ffffff;
+    background-color: transparent;
 }
 
 .navbar.dark-mode a {
-    color: #000000;
+    background-color: transparent;
 }
 
 .content.dark-mode {
