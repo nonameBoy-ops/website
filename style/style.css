@@ -93,8 +93,8 @@ output {
 }
 
 .navbar a {
-    color: white;
-    font-family: sans-serif;
+    color: rgb(250, 244, 244);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-decoration: none;
     padding: 10px;
 }
