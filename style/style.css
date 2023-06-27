@@ -151,16 +151,21 @@ body.dark-mode .Design {
     top: 1%;
     position: fixed;
     border-color: white;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: white;
 }
 
 .table a {
     display: block;
     text-decoration: none;
+    color: yellow;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-.table.dark-mode {
-    color: rgb(202, 18, 18);
+.dark-mode .table {
+    color: black;
+    border-color: black;
 }
 
 .navbar.dark-mode {
