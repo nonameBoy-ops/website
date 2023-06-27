@@ -71,6 +71,7 @@ output {
 
 .navbar {
     z-index: 1;
+    overflow-wrap: anywhere;
     position: fixed;
     left: 50%;
     transform: translateX(-50%);
@@ -142,6 +143,24 @@ body.dark-mode .Design {
     border: 0px;
     position: fixed;
     bottom: 0;
+}
+
+.table {
+    left: 50%;
+    transform: translateX(-50%);
+    top: 1%;
+    position: fixed;
+    border-color: white;
+    color: white;
+}
+
+.table a {
+    display: block;
+    text-decoration: none;
+}
+
+.table.dark-mode {
+    color: rgb(202, 18, 18);
 }
 
 .navbar.dark-mode {
