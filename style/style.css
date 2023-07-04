@@ -70,12 +70,11 @@ output {
 }
 
 .navbar {
-    z-index: 1;
     overflow-wrap: anywhere;
-    position: fixed;
+    position: relative;
     left: 50%;
+    background: rgba(0, 160, 189, 0.5);
     transform: translateX(-50%);
-    background-color: transparent;
     height: 25px;
     display: flex;
     justify-content: center;
@@ -94,6 +93,7 @@ output {
 }
 
 .navbar a {
+    z-index: 1;
     color: rgb(250, 244, 244);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-decoration: none;
@@ -101,7 +101,14 @@ output {
 }
 
 .navbar a:hover {
-    color: #f50a0a;
+    color: #01ad4f;
+}
+
+.haus {
+    z-index: 10;
+    position: static;
+    left: 10%;
+    top: 1%;
 }
 
 .mail {
@@ -146,10 +153,12 @@ body.dark-mode .Design {
 }
 
 .table {
+    position: absolute;
+    top: 20%;
     left: 50%;
+    width: 100px;
+    height: 100px;
     transform: translateX(-50%);
-    top: 1%;
-    position: fixed;
     border-color: white;
     text-decoration: none;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -159,7 +168,7 @@ body.dark-mode .Design {
 .table a {
     display: block;
     text-decoration: none;
-    color: yellow;
+    color: rgb(204, 139, 0);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 

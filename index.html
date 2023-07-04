@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-
 <html lang="en">
 
 <head>
@@ -13,24 +12,27 @@
 
     <script type="text/javascript" src="script/script.js"></script>
     <title>Startseite</title>
+
+    <style>
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        
+        @media screen and (max-width: 480px) {
+            /* Beispielwert für mobile Geräte */
+            body {
+                white-space: nowrap;
+            }
+            .navbar {
+                white-space: nowrap;
+            }
+        }
+    </style>
 </head>
 
-<style>
-    img {
-        /*
-        display: block;
-        position: relative;
-        width: 100%;
-        */
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
-    }
-</style>
-
 <body>
-
-
     <div class="navbar">
         <ul>
             <li><a href="sites/schule.html">Schule</a></li>
@@ -42,11 +44,9 @@
 
     <img src="documents/pictures/clay-banks-u27Rrbs9Dwc-unsplash.jpg" />
 
-
+    <footer>
+        <a id="mail" class="mail" href="mailto:fabian.steiss@gmx.de">© 2022-2023 Fabian Steiß</a>
+    </footer>
 </body>
-
-<footer>
-    <a id="mail" class="mail" href="mailto:fabian.steiss@gmx.de">© 2022-2023 Fabian Steiß</a>
-</footer>
 
 </html>
