@@ -103,14 +103,6 @@ output {
     padding: 10px;
 }
 
-.drehenLinks{
-    -webkit-transform: rotate(90deg);
-    -moz-transform: rotate(90deg);
-    -o-transform: rotate(90deg);
-    -ms-transform: rotate(90deg);
-    transform: rotate(90deg);
-}
-
 .navbar a:hover {
     color: #01ad4f;
 }
